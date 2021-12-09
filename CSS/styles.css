@@ -1,0 +1,164 @@
+body {
+  padding: 0 3%;
+  font-family: 'Open Sans', sans-serif;
+}
+h2,h3{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* titlesection */
+.btn {
+  -webkit-border-radius: 24;
+  -moz-border-radius: 24;
+  border-radius: 200px;
+  padding: 5px 15px;
+  font-family: sans-serif;
+  color: hsl(321, 100%, 78%);
+  font-size: 15px;
+  background: #fafdff;
+  border: solid #d91ad6 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fff;
+  text-decoration: none;
+  color: hsl(321, 100%, 78%);
+}
+
+.btn-large {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: hsl(322, 100%, 66%);
+  padding: 10px 20px 10px 20px;
+  border: solid #fff 2px;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 4rem;
+}
+
+.title-body {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.title-paragraph {
+  padding: 2% 20%;
+}
+
+.title-icon {
+  width: 30px;
+}
+
+.sec-2 {
+  margin-left: 200px;
+}
+
+.whole-sec {
+  text-align: left;
+  margin: 20px;
+}
+
+/* for mobiles */
+@media (max-width: 720px) {
+  .sec-2 {
+    margin-left: 0;
+  }
+
+  .main-img {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  body {
+    padding: 5% 5%;
+  }
+}
+
+/* feature section */
+.features {
+  margin-top: 400px;
+  text-align: left;
+  padding: 5% 10%;
+}
+
+.width-change{
+  width: 400px;
+  margin-bottom: 50px;
+}
+
+.grow-together-img{
+  float: right;
+}
+
+.col-md-8{
+  margin-top: 50px;
+  padding: 0 5%;
+}
+
+.layer{
+  position: absolute;
+  z-index: -1;
+  width: 1000px;
+}
+
+/* secondlastsection */
+.asker{
+  text-align: center;
+  margin: 200px auto;
+}
+
+
+
+/* fotter section */
+
+.footer{
+  color: #fff;
+}
+
+.footer-layer{
+ position: absolute;
+ z-index: -1;
+ top: 3510px;
+ width: 100%;
+
+}
+.footer-img{
+  width: 40px;
+}
+
+.form-control{
+  width: 250px;
+  display: inline-block;
+}
+
+.btn-large-1 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: hsl(322, 100%, 66%);
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 50px;
+  margin-left: 25px;
+}
+
+.col{
+  padding: 0 5%;
+}
